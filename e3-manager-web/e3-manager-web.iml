@@ -16,7 +16,35 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="ApplicationContext Trans" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-trans.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-service.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-dao.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="JRebel" name="JRebel">
+      <configuration>
+        <option name="deleteUnindexed" value="false" />
+        <option name="httpAuthEnabled" value="false" />
+        <option name="httpPassword" />
+        <option name="httpUsername" />
+        <option name="ideModuleStorage">
+          <map>
+            <entry key="com.zeroturnaround.jrebel.FormatVersion" value="7.0.0" />
+            <entry key="com.zeroturnaround.jrebel.remoting.DeleteUnindexedFiles" value="false" />
+            <entry key="com.zeroturnaround.jrebel.remoting.ModuleRemoteServerSelection" value="off" />
+            <entry key="jrebelEnabled" value="true" />
+          </map>
+        </option>
+        <option name="masterModuleName" />
+        <option name="overrideStandardXmlFolder" value="false" />
+        <option name="remotingEnabled" value="false" />
+        <option name="secure" value="true" />
+        <option name="url" />
+        <option name="xmlDir" />
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
