@@ -26,7 +26,7 @@ public class ItemServiceImpl implements ItemService {
         criteria.andIdEqualTo(id);
         //执行查询
         List<TbItem> list = mapper.selectByExample(tbItemExample);
-        if (list != null) {
+        if (list != null && list.size() > 0) {
             return list.get(0);
         }
         return null;
